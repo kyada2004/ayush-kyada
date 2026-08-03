@@ -1,0 +1,69 @@
+{
+  "name": "Kyada Ayush Bharatbhai",
+  "shortName": "Ayush Kyada",
+  "role": "AI & Machine Learning Engineer",
+  "subRole": "MCA Student · Silver Oak University",
+  "photo": "/images/profile/ayush.jpg",
+  "logo": "/images/profile/logo.png",
+  "location": "Ahmedabad, Gujarat, India",
+  "email": "ayushkyada2124@gmail.com",
+  "phone": "+91 72018 98457",
+  "resume": "/images/profile/Ayush Resume.pdf",
+  "typingRoles": [
+    "AI & ML Engineer",
+    "LLM & LangChain Developer",
+    "Computer Vision Enthusiast",
+    "AI Agents Builder"
+  ],
+  "intro": "Aspiring AI/ML Engineer and MCA student with practical experience in Python, Generative AI, LLMs, AI Agents, LangChain and Computer Vision. I build intelligent assistants, automation systems and desktop applications that solve real-world problems.",
+  "summary": "AI/ML practitioner skilled in LLM application development, prompt engineering, REST API integration and computer vision. Experienced in building AI-powered assistants, intelligent automation systems and analytics chatbots end to end — from data pipelines and model integration to polished user interfaces.",
+  "objective": "To grow as an AI/ML Engineer by building production-grade intelligent systems, contributing to research-driven teams and delivering AI products that create measurable real-world value.",
+  "stats": [
+    { "label": "Projects Built", "value": 4, "suffix": "+" },
+    { "label": "Internships", "value": 3, "suffix": "" },
+    { "label": "Certifications", "value": 4, "suffix": "" },
+    { "label": "Technologies", "value": 25, "suffix": "" }
+  ],
+  "personalInfo": [
+    { "label": "Full Name", "value": "Kyada Ayush Bharatbhai" },
+    { "label": "Location", "value": "Ahmedabad, Gujarat" },
+    { "label": "Email", "value": "ayushkyada2124@gmail.com" },
+    { "label": "Phone", "value": "+91 72019 08457" },
+    { "label": "Master Degree", "value": "Master of Computer Applications" },
+    { "label": "Availability", "value": "Open to opportunities" }
+  ],
+  "languages": [
+    { "name": "Gujarati", "level": "Native" },
+    { "name": "Hindi", "level": "Fluent" },
+    { "name": "English", "level": "Professional" }
+  ],
+  "interests": [
+    "Generative AI",
+    "Autonomous Agents",
+    "Computer Vision",
+    "Open Source",
+    "System Design",
+    "Tech Blogging"
+  ],
+  "strengths": [
+    "Analytical & problem-solving mindset",
+    "Fast learner with new AI tooling",
+    "Clear technical communication",
+    "Ownership from idea to deployment",
+    "Team collaboration"
+  ],
+  "careerGoals": [
+    {
+      "term": "Short term",
+      "text": "Join an AI-first team as an ML/AI engineer and ship LLM-powered features used by real users."
+    },
+    {
+      "term": "Mid term",
+      "text": "Specialise in multi-agent systems and applied computer vision at production scale."
+    },
+    {
+      "term": "Long term",
+      "text": "Lead AI product engineering and mentor upcoming engineers in responsible AI practices."
+    }
+  ]
+}

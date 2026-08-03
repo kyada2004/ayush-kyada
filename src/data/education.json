@@ -1,0 +1,50 @@
+[
+  {
+    "degree": "Master of Computer Applications (MCA)",
+    "university": "Silver Oak University",
+    "duration": "2024 — 2026",
+    "specialization": "Computer Application",
+    "cgpa": "9.0",
+    "achievements": [
+      "Specialised coursework in Artificial Intelligence and Machine Learning",
+      "Built multiple AI capstone projects including an autonomous desktop assistant"
+    ]
+  },
+  {
+    "degree": "Bachelor of Computer Applications (BCA)",
+    "university": "Silver Oak University",
+    "duration": "2021 — 2024",
+    "specialization": "Computer Application",
+    "cgpa": "8.44",
+    "achievements": [
+      "Consistent academic performer across all semesters",
+      "Led final-year web development project team"
+    ]
+  },
+  {
+    "degree": "Higher Secondary Certificate (HSC)",
+    "university": "Gujarat Secondary and Higher Secondary Education Board (GSEB)",
+    "duration": "2019 — 2021",
+    "specialization": "General (Commerce Stream)",
+    "grade": "C1",
+    "percentileRank": "64.48",
+    "yearOfPassing": "2021",
+    "achievements": [
+      "Completed Higher Secondary Education under GSEB",
+      "Studied Commerce subjects including Economics, Statistics and Accountancy"
+    ]
+  },
+  {
+    "degree": "Secondary School Certificate (SSC)",
+    "university": "Gujarat Secondary and Higher Secondary Education Board (GSEB)",
+    "duration": "2017 — 2019",
+    "specialization": "General Studies",   
+    "grade": "B2",
+    "percentileRank": "75.02",
+    "yearOfPassing": "2019",
+    "achievements": [
+      "Completed Secondary Education under GSEB",
+      "Achieved B2 Grade with 75.02 Percentile Rank"
+    ]
+  }
+]

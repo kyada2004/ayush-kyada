@@ -1,0 +1,632 @@
+[
+  {
+    "slug": "neurodesk-ai-desktop-assistant",
+    "title": "NeuroDesk AI Intelligent Desktop Assistant",
+    "category": "Artificial Intelligence",
+    "tagline": "An AI-powered desktop assistant with voice interaction, automation, authentication, and intelligent task execution.",
+    "cover": "/images/projects/neurodesk.jpg",
+    "gallery": [
+      "/images/projects/neurodesk.jpg"
+    ],
+    "video": "",
+    "featured": true,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/NeuroDesk-AI-Intelligent-Desktop-Assistant",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "CustomTkinter",
+      "FastAPI",
+      "SQLite",
+      "Speech Recognition",
+      "pyttsx3",
+      "OpenCV",
+      "REST API",
+      "AI Agent"
+    ],
+    "description": "NeuroDesk AI is an intelligent desktop assistant that combines voice interaction, AI-powered automation, user authentication, and system management into a modern desktop application. It enables users to control their computer using natural language while providing productivity tools and AI assistance.",
+    "features": [
+      "Voice-based AI assistant",
+      "Speech recognition and text-to-speech",
+      "User registration and login system",
+      "AI chat and intelligent responses",
+      "System automation and command execution",
+      "Weather, search, and productivity tools",
+      "File management automation",
+      "Modern CustomTkinter desktop interface",
+      "Local database integration",
+      "Modular AI architecture"
+    ],
+    "architecture": [
+      "Desktop GUI built with CustomTkinter",
+      "Authentication module",
+      "Voice recognition engine",
+      "AI processing layer",
+      "Automation and command execution engine",
+      "SQLite database management",
+      "REST API communication",
+      "Speech output module"
+    ],
+    "challenges": [
+      "Handling continuous voice recognition",
+      "Managing multiple AI services",
+      "Desktop automation reliability",
+      "Maintaining responsive GUI",
+      "Cross-platform compatibility"
+    ],
+    "solutions": [
+      "Implemented modular AI architecture",
+      "Used multithreading for voice processing",
+      "Integrated secure authentication",
+      "Optimized background task execution",
+      "Separated UI and backend modules"
+    ],
+    "improvements": [
+      "Offline LLM support",
+      "Memory-based conversations",
+      "Plugin marketplace",
+      "Mobile companion app",
+      "Multi-language voice assistant"
+    ]
+  },
+  {
+    "slug": "talentscout-chatbot",
+    "title": "TalentScout AI Recruitment Chatbot",
+    "category": "Artificial Intelligence",
+    "tagline": "An AI recruitment assistant that screens candidates, manages conversations, and stores applicant information.",
+    "cover": "/images/projects/talentscout.jpg",
+    "gallery": [
+      "/images/projects/talentscout.jpg"
+    ],
+    "video": "",
+    "featured": false,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/talentscout-chatbot",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "Streamlit",
+      "OpenAI",
+      "JSON",
+      "LLM",
+      "Prompt Engineering"
+    ],
+    "description": "TalentScout Chatbot is an AI-powered recruitment assistant that interacts with job candidates, collects recruitment information, evaluates responses, and stores applicant data for recruiters.",
+    "features": [
+      "AI recruitment conversations",
+      "Candidate screening",
+      "Resume information collection",
+      "Conversation memory",
+      "Prompt engineering",
+      "Candidate data storage",
+      "Interactive chatbot interface",
+      "Recruitment workflow automation"
+    ],
+    "architecture": [
+      "Streamlit frontend",
+      "Conversation engine",
+      "Prompt management",
+      "Memory module",
+      "Candidate database",
+      "LLM integration",
+      "JSON data storage"
+    ],
+    "challenges": [
+      "Maintaining conversation context",
+      "Generating recruiter-quality responses",
+      "Managing candidate information",
+      "Reducing AI hallucinations"
+    ],
+    "solutions": [
+      "Implemented memory management",
+      "Designed structured prompts",
+      "Stored candidate information in JSON",
+      "Created modular chatbot architecture"
+    ],
+    "improvements": [
+      "Interview scheduling",
+      "Resume parser",
+      "ATS integration",
+      "HR analytics dashboard",
+      "Multi-language support"
+    ]
+  },
+  {
+    "slug": "ai-autonomace-smart-response",
+    "title": "AI Autonomace Smart Response",
+    "category": "Artificial Intelligence",
+    "tagline": "AI automation platform that generates intelligent responses, executes system tasks, and performs facial recognition.",
+    "cover": "/images/projects/autonomace.jpg",
+    "gallery": [
+      "/images/projects/autonomace.jpg"
+    ],
+    "video": "",
+    "featured": true,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/AI-Autonomace-Smart-Response",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "SQLite",
+      "OpenCV",
+      "Face Recognition",
+      "AI",
+      "REST API",
+      "Machine Learning"
+    ],
+    "description": "AI Autonomace Smart Response is an intelligent automation platform that combines AI-generated responses, operating system planning, facial recognition, authentication, and system management through a FastAPI backend.",
+    "features": [
+      "AI text generation",
+      "Operating system automation",
+      "Face detection",
+      "Face recognition",
+      "Profile management",
+      "User authentication",
+      "Conversation history",
+      "Device information monitoring",
+      "REST API services",
+      "Database integration"
+    ],
+    "architecture": [
+      "FastAPI backend server",
+      "Authentication system",
+      "AI response generation engine",
+      "Face recognition module",
+      "Automation planning module",
+      "SQLite database",
+      "History management",
+      "API response layer"
+    ],
+    "challenges": [
+      "Integrating multiple AI modules",
+      "Face recognition accuracy",
+      "Secure authentication",
+      "Efficient API response time",
+      "Managing automation workflows"
+    ],
+    "solutions": [
+      "Modular backend architecture",
+      "Separated AI generation services",
+      "Optimized facial recognition pipeline",
+      "Database-driven user management",
+      "Efficient REST API implementation"
+    ],
+    "improvements": [
+      "Vector database memory",
+      "Docker deployment",
+      "GPU inference",
+      "Cloud synchronization",
+      "Voice command support"
+    ]
+  },
+  {
+    "slug": "object-person-detection",
+    "title": "Object & Person Detection System",
+    "category": "Computer Vision",
+    "tagline": "Real-time object and person detection system built using OpenCV and Deep Learning for intelligent video analysis.",
+    "cover": "/images/projects/detection.jpg",
+    "gallery": [
+      "/images/projects/detection.jpg"
+    ],
+    "video": "",
+    "featured": false,
+    "year": "2024",
+    "github": "https://github.com/kyada2004/object-and-person-detection",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "description": "A computer vision application capable of detecting people and multiple objects from webcam or recorded video using deep learning models. The system displays real-time bounding boxes with confidence scores for each detected object.",
+    "features": [
+      "Real-time object detection",
+      "Person detection",
+      "Webcam support",
+      "Video file processing",
+      "Bounding box visualization",
+      "Confidence score display",
+      "Multiple object class detection",
+      "Live inference pipeline"
+    ],
+    "architecture": [
+      "Video capture module",
+      "Frame preprocessing",
+      "Deep learning detection model",
+      "Object classification",
+      "Bounding box rendering",
+      "Display output pipeline"
+    ],
+    "challenges": [
+      "Maintaining real-time FPS",
+      "Detecting small objects",
+      "Reducing false positives",
+      "Optimizing CPU performance"
+    ],
+    "solutions": [
+      "Optimized OpenCV processing pipeline",
+      "Used pretrained deep learning models",
+      "Applied confidence threshold filtering",
+      "Improved frame preprocessing"
+    ],
+    "improvements": [
+      "YOLOv11 integration",
+      "Object tracking",
+      "Face recognition",
+      "GPU acceleration",
+      "Edge device deployment"
+    ]
+  },
+  {
+    "slug": "personal-ai-server",
+    "title": "Personal AI Server",
+    "category": "Artificial Intelligence",
+    "tagline": "FastAPI-based AI inference server with intelligent routing, Retrieval-Augmented Generation (RAG), API management, and local LLM & image generation.",
+    "cover": "/images/projects/personal-ai-server.jpg",
+    "gallery": [
+      "/images/projects/personal-ai-server.jpg"
+    ],
+    "video": "",
+    "featured": true,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/personal-AI-server",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "Uvicorn",
+      "SQLite",
+      "SQLAlchemy",
+      "Jinja2",
+      "Transformers",
+      "Llama.cpp",
+      "Sentence Transformers",
+      "Diffusers",
+      "SD Turbo",
+      "SDXS",
+      "Qwen 2.5",
+      "Llama 3.2",
+      "REST API"
+    ],
+    "description": "Personal AI Server is a local AI inference platform built with FastAPI that provides text generation, image generation, intelligent model routing, Retrieval-Augmented Generation (RAG), and secure API key management. The system supports multiple AI models for both fast and high-quality inference while offering a web dashboard for managing API access.",
+    "features": [
+      "Dual-layer text generation using Llama 3.2 and Qwen 2.5 models",
+      "Dual-layer image generation using SDXS and SD Turbo",
+      "Automatic query routing for selecting the best AI model",
+      "Retrieval-Augmented Generation (RAG) using local documents",
+      "RESTful API for AI text and image generation",
+      "Secure API key generation and management",
+      "SQLite database integration",
+      "Web dashboard for API administration",
+      "Environment-based configuration",
+      "Supports local offline AI deployment"
+    ],
+    "architecture": [
+      "Client sends request through REST API",
+      "FastAPI processes incoming requests",
+      "Router analyzes prompt type and required quality",
+      "RAG engine retrieves relevant context from local documents",
+      "Selected AI model generates response",
+      "Database validates API keys and stores information",
+      "Response is returned through the API",
+      "Dashboard manages users and API keys"
+    ],
+    "challenges": [
+      "Managing multiple AI models efficiently",
+      "Reducing response latency for local inference",
+      "Selecting the appropriate model automatically",
+      "Integrating text and image generation into one platform",
+      "Implementing secure API authentication",
+      "Handling CPU-based inference with limited hardware resources"
+    ],
+    "solutions": [
+      "Implemented intelligent routing for model selection",
+      "Separated fast and high-quality AI pipelines",
+      "Used Retrieval-Augmented Generation for better responses",
+      "Integrated SQLite with SQLAlchemy for lightweight storage",
+      "Developed API key authentication system",
+      "Built modular architecture for easy scalability and maintenance"
+    ],
+    "improvements": [
+      "Add user authentication with JWT",
+      "Support cloud model deployment",
+      "Integrate GPU acceleration for faster inference",
+      "Add conversation memory with Vector Database",
+      "Implement streaming AI responses",
+      "Deploy using Docker and Kubernetes",
+      "Support multimodal AI (text, image, audio, video)",
+      "Add usage analytics and monitoring dashboard"
+    ]
+  },
+  {
+    "slug": "deepseek-chatbot",
+    "title": "DeepSeek AI Chatbot",
+    "category": "Artificial Intelligence",
+    "tagline": "Desktop AI chatbot powered by DeepSeek LLM with an interactive GUI and intelligent conversational capabilities.",
+    "cover": "/images/projects/deepseek-chatbot.jpg",
+    "gallery": [
+      "/images/projects/deepseek-chatbot.jpg"
+    ],
+    "video": "",
+    "featured": true,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/DeekSeek-chatbot",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "CustomTkinter",
+      "DeepSeek AI",
+      "LLM",
+      "PyInstaller"
+    ],
+    "description": "An AI-powered desktop chatbot built with Python that integrates the DeepSeek Large Language Model to provide intelligent conversations, question answering, code assistance, and productivity support through a modern graphical interface.",
+    "features": [
+      "Modern desktop GUI using CustomTkinter",
+      "Natural language conversation",
+      "AI code generation and debugging",
+      "Chat history management",
+      "Fast AI response generation",
+      "Dark and light theme support"
+    ],
+    "architecture": [
+      "CustomTkinter frontend",
+      "Python application layer",
+      "DeepSeek LLM API integration",
+      "Prompt processing engine",
+      "Response rendering interface"
+    ],
+    "challenges": [
+      "Managing API response latency",
+      "Maintaining conversation context",
+      "Creating a responsive desktop interface"
+    ],
+    "solutions": [
+      "Optimized asynchronous request handling",
+      "Context-aware prompt management",
+      "Thread-based background processing"
+    ],
+    "improvements": [
+      "Offline local LLM support",
+      "Voice conversation",
+      "Document analysis",
+      "Image understanding"
+    ]
+  },
+  {
+    "slug": "desktop-voice-assistant",
+    "title": "Desktop Voice Assistant",
+    "category": "AI Assistant",
+    "tagline": "Intelligent desktop assistant with voice recognition, automation, AI responses, and productivity tools.",
+    "cover": "/images/projects/voice-assistant.jpg",
+    "gallery": [
+      "/images/projects/voice-assistant.jpg"
+    ],
+    "video": "",
+    "featured": true,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/desktop-voice-assitant",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "SpeechRecognition",
+      "CustomTkinter",
+      "SQLite",
+      "Machine Learning",
+      "OpenAI API",
+      "Text-to-Speech"
+    ],
+    "description": "A desktop AI assistant capable of voice interaction, command execution, intelligent conversations, email generation, weather reporting, system automation, and productivity management using machine learning and natural language processing.",
+    "features": [
+      "Voice command recognition",
+      "AI-powered conversation",
+      "Weather information",
+      "Email and letter generator",
+      "System automation",
+      "Application launcher",
+      "Voice responses",
+      "User authentication",
+      "Search engine integration",
+      "Productivity assistant"
+    ],
+    "architecture": [
+      "Speech recognition module",
+      "Intent classification model",
+      "Command execution engine",
+      "AI response generator",
+      "SQLite user database",
+      "Desktop GUI"
+    ],
+    "challenges": [
+      "Accurate speech recognition",
+      "Intent prediction",
+      "Multi-threaded voice processing",
+      "Real-time response generation"
+    ],
+    "solutions": [
+      "Machine learning intent classifier",
+      "Background processing threads",
+      "Optimized command pipeline",
+      "Hybrid AI response engine"
+    ],
+    "improvements": [
+      "Offline LLM",
+      "Face authentication",
+      "Smart home integration",
+      "Cross-platform deployment"
+    ]
+  },
+  {
+    "slug": "vision-classes",
+    "title": "Vision Classes Management System",
+    "category": "Web Application",
+    "tagline": "Educational institute management platform with student registration, placement management, and admin dashboard.",
+    "cover": "/images/projects/vision-classes.jpg",
+    "gallery": [
+      "/images/projects/vision-classes.jpg"
+    ],
+    "video": "",
+    "featured": false,
+    "year": "2024",
+    "github": "https://github.com/kyada2004/Vision-Classes",
+    "demo": "",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "Bootstrap"
+    ],
+    "description": "A complete educational institute management system that manages student registrations, placements, faculty information, contact forms, and administrative operations through a responsive web application.",
+    "features": [
+      "Student registration",
+      "Placement management",
+      "Admin dashboard",
+      "Faculty management",
+      "Contact management",
+      "Responsive website",
+      "Course information",
+      "Database management"
+    ],
+    "architecture": [
+      "Responsive frontend",
+      "PHP backend",
+      "MySQL database",
+      "Admin management panel",
+      "Student information module"
+    ],
+    "challenges": [
+      "Managing student records",
+      "Secure database operations",
+      "Responsive user interface"
+    ],
+    "solutions": [
+      "Normalized MySQL database",
+      "Optimized PHP backend",
+      "Bootstrap responsive design"
+    ],
+    "improvements": [
+      "Online fee payment",
+      "Student login",
+      "Attendance system",
+      "Email notification"
+    ]
+  },
+  {
+    "slug": "food-waste-management",
+    "title": "Food Waste Management System",
+    "category": "Social Impact",
+    "tagline": "Platform connecting food donors with NGOs to reduce food waste and support communities.",
+    "cover": "/images/projects/food-waste.jpg",
+    "gallery": [
+      "/images/projects/food-waste.jpg"
+    ],
+    "video": "",
+    "featured": true,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/food-waste-management",
+    "demo": "",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "REST API"
+    ],
+    "description": "A MERN Stack web application that enables restaurants, hotels, and individuals to donate surplus food while NGOs and volunteers efficiently manage food collection and distribution.",
+    "features": [
+      "Food donation",
+      "NGO registration",
+      "Food request management",
+      "Real-time notifications",
+      "Admin dashboard",
+      "Contact management",
+      "Authentication",
+      "Donation tracking"
+    ],
+    "architecture": [
+      "React frontend",
+      "Node.js REST API",
+      "Express server",
+      "MongoDB database",
+      "JWT authentication"
+    ],
+    "challenges": [
+      "Real-time donation management",
+      "Role-based authentication",
+      "Efficient request tracking"
+    ],
+    "solutions": [
+      "RESTful APIs",
+      "JWT security",
+      "MongoDB document database",
+      "Role-based access control"
+    ],
+    "improvements": [
+      "Google Maps integration",
+      "Live delivery tracking",
+      "Mobile application",
+      "Analytics dashboard"
+    ]
+  },
+  {
+    "slug": "weather-app",
+    "title": "Weather Forecast Application",
+    "category": "Web Application",
+    "tagline": "Modern weather forecasting application providing real-time weather conditions and forecasts.",
+    "cover": "/images/projects/weather-app.jpg",
+    "gallery": [
+      "/images/projects/weather-app.jpg"
+    ],
+    "video": "",
+    "featured": false,
+    "year": "2025",
+    "github": "https://github.com/kyada2004/Weather-app",
+    "demo": "",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "Weather API",
+      "REST API"
+    ],
+    "description": "A full-stack weather application that delivers real-time weather conditions, forecasts, temperature, humidity, wind speed, and location-based weather information through a responsive interface.",
+    "features": [
+      "Real-time weather updates",
+      "City search",
+      "Current temperature",
+      "Humidity information",
+      "Wind speed",
+      "Weather forecasts",
+      "Responsive interface",
+      "API integration"
+    ],
+    "architecture": [
+      "React frontend",
+      "FastAPI backend",
+      "Weather API integration",
+      "REST API services",
+      "Responsive UI"
+    ],
+    "challenges": [
+      "Real-time API integration",
+      "Weather data synchronization",
+      "Responsive user experience"
+    ],
+    "solutions": [
+      "FastAPI backend",
+      "Optimized API requests",
+      "Efficient frontend state management"
+    ],
+    "improvements": [
+      "7-day forecast",
+      "Weather alerts",
+      "Location detection",
+      "Weather maps"
+    ]
+  }
+]

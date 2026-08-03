@@ -1,0 +1,163 @@
+[
+  {
+    "category": "Programming",
+    "icon": "Code2",
+    "skills": [
+      {
+        "name": "Python",
+        "level": 80,
+        "experience": "Advanced"
+      },
+      {
+        "name": "JavaScript",
+        "level": 60,
+        "experience": "Intermediate"
+      }
+    ]
+  },
+  {
+    "category": "AI & Machine Learning",
+    "icon": "BrainCircuit",
+    "skills": [
+      {
+        "name": "Large Language Models (LLMs)",
+        "level": 70,
+        "experience": "Advanced"
+      },
+      {
+        "name": "AI Agent Architectures",
+        "level": 75,
+        "experience": "Advanced"
+      },
+      {
+        "name": "LangChain",
+        "level": 75,
+        "experience": "Advanced"
+      },
+      {
+        "name": "Prompt Engineering",
+        "level": 80,
+        "experience": "Advanced"
+      },
+      {
+        "name": "Intent Recognition",
+        "level": 75,
+        "experience": "Advanced"
+      },
+      {
+        "name": "Task Decomposition",
+        "level": 50,
+        "experience": "Intermediate"
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "level": 70,
+        "experience": "Advanced"
+      },
+      {
+        "name": "AI Agents",
+        "level": 85,
+        "experience": "Advanced"
+      },
+      {
+        "name": "MLOps Fundamentals",
+        "level": 75,
+        "experience": "Intermediate"
+      }
+    ]
+  },
+  {
+    "category": "Computer Vision",
+    "icon": "ScanEye",
+    "skills": [
+      {
+        "name": "OpenCV",
+        "level": 85,
+        "experience": "Advanced"
+      },
+      {
+        "name": "Real-time Object Detection",
+        "level": 80,
+        "experience": "Advanced"
+      },
+      {
+        "name": "Face-based Biometric Authentication",
+        "level": 70,
+        "experience": "Intermediate"
+      },
+      {
+        "name": "Image Generation Systems",
+        "level": 65,
+        "experience": "Intermediate"
+      }
+    ]
+  },
+  {
+    "category": "Databases",
+    "icon": "Database",
+    "skills": [
+      {
+        "name": "MySQL",
+        "level": 75,
+        "experience": "Advanced"
+      },
+      {
+        "name": "SQLite",
+        "level": 85,
+        "experience": "Advanced"
+      },
+      {
+        "name": "MongoDB",
+        "level": 75,
+        "experience": "Intermediate"
+      }
+    ]
+  },
+  {
+    "category": "Tools",
+    "icon": "Wrench",
+    "skills": [
+      {
+        "name": "Git",
+        "level": 70,
+        "experience": "Advanced"
+      },
+      {
+        "name": "GitHub",
+        "level": 90,
+        "experience": "Advanced"
+      },
+      {
+        "name": "AI Tools",
+        "level": 90,
+        "experience": "Advanced"
+      }
+    ]
+  },
+  {
+    "category": "Additional Skills",
+    "icon": "Lightbulb",
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "level": 70,
+        "experience": "Advanced"
+      },
+      {
+        "name": "Analytical Thinking",
+        "level": 80,
+        "experience": "Advanced"
+      },
+      {
+        "name": "Software Development Lifecycle (SDLC)",
+        "level": 80,
+        "experience": "Intermediate"
+      },
+      {
+        "name": "System Design Fundamentals",
+        "level": 75,
+        "experience": "Intermediate"
+      }
+    ]
+  }
+]

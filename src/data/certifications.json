@@ -1,0 +1,52 @@
+[
+  {
+    "id": "genai-ops",
+    "title": "Operationalize Generative AI Applications (GenAIOps)",
+    "organization": "Microsoft Learn",
+    "issueDate": "2025",
+    "credentialId": "MS-GENAIOPS-2025",
+    "image": "/images/profile/certificates/microsoft.png",
+    "url": "https://github.com/kyada2004/my-certification/blob/main/Achievements%20-%20kyadaayushbharatbhai-0013%20_%20Microsoft%20Learn.pdf",
+    "download": "/images/profile/certificates/Achievements - kyadaayushbharatbhai-0013 _ Microsoft Learn.pdf"
+  },
+  {
+    "id": "azure-ai",
+    "title": "Get Started with Azure AI Services",
+    "organization": "Microsoft Learn",
+    "issueDate": "2025",
+    "credentialId": "MS-AZAI-2025",
+    "image": "/images/profile/certificates/microsoft.png",
+    "url": "https://github.com/kyada2004/my-certification/blob/main/Achievements%20-%20kyadaayushbharatbhai-2024%20_%20Microsoft%20Learn.pdf",
+    "download": "/images/profile/certificates/Achievements - kyadaayushbharatbhai-2024 _ Microsoft Learn.pdf"
+  },
+  {
+    "id": "genai-azure-apps",
+    "title": "Develop Generative AI Apps in Azure",
+    "organization": "Microsoft Learn",
+    "issueDate": "2025",
+    "credentialId": "MS-GENAIAPPS-2025",
+    "image": "/images/profile/certificates/microsoft.png",
+    "url": "https://github.com/kyada2004/my-certification/blob/main/Achievements%20-%20kyadaayushbharatbhai-8606%20_%20Microsoft%20Learn.pdf",
+    "download": "/images/profile/certificates/Achievements - kyadaayushbharatbhai-8606 _ Microsoft Learn.pdf"
+  },
+  {
+    "id": "genai-mlops",
+    "title": "Operationalize Machine Learning Models (MLOps)",
+    "organization": "Microsoft Learn",
+    "issueDate": "2026",
+    "credentialId": "MS-GENAIMLOPS-2026",
+    "image": "/images/profile/certificates/microsoft.png",
+    "url": "https://github.com/kyada2004/my-certification/blob/main/Achievements%20-%20kyadaayushbharatbhai-80606%20_%20Microsoft%20Learn.pdf",
+    "download": "/images/profile/certificates/Achievements - kyadaayushbharatbhai-80606 _ Microsoft Learn.pdf"
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Introduction to Cybersecurity",
+    "organization": "Cisco Networking Academy",
+    "issueDate": "2023",
+    "credentialId": "CISCO-CYB-2023",
+    "image": "/images/profile/certificates/cisco.png",
+    "url": "https://github.com/kyada2004/my-certification/blob/main/Introduction_to_Cybersecurity_certificate_kyadaayush08-gmail-com_b1e29a37-2678-4c96-8e6c-12f3b051806b%20(1).pdf",
+    "download": "/images/profile/certificates/Introduction_to_Cybersecurity_certificate_kyadaayush08-gmail-com_b1e29a37-2678-4c96-8e6c-12f3b051806b (1).pdf"
+  }
+]
