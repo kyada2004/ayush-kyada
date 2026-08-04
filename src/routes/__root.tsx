@@ -13,6 +13,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Toaster } from "@/components/ui/sonner";
 
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -85,6 +86,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Portfolio of Kyada Ayush Bharatbhai — AI/ML Engineer building LLM apps, AI agents and computer vision systems.",
       },
       { name: "author", content: "Kyada Ayush Bharatbhai" },
+      // Broad keyword coverage for name + role searches
+      {
+        name: "keywords",
+        content:
+          "Ayush Kyada, Ayush Kyada Portfolio, Ayush Kyada AI Engineer, Ayush Kyada Machine Learning Engineer, Ayush Kyada Python Developer, AI Portfolio India, Kyada Ayush Bharatbhai",
+      },
+      // Explicitly allow full indexing + rich snippets (mobile-first friendly)
+      { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
+      { name: "googlebot", content: "index, follow" },
+      { name: "theme-color", content: "#0b0e13" },
+      { property: "og:site_name", content: "Ayush Kyada — AI/ML Engineer" },
+      { property: "og:locale", content: "en_IN" },
       { property: "og:title", content: "Ayush Kyada — AI/ML Engineer" },
       {
         property: "og:description",
@@ -105,7 +118,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap",
       },
       { rel: "icon", href: "/favicon.png", type: "image/png" },
+      { rel: "apple-touch-icon", href: "/favicon.png" },
+      // PWA / mobile install metadata
+      { rel: "manifest", href: "/site.webmanifest" },
     ],
+
   }),
 
   shellComponent: RootShell,
@@ -139,3 +156,4 @@ function RootComponent() {
     </QueryClientProvider>
   );
 }
+

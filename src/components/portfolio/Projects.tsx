@@ -83,9 +83,7 @@ export function Projects() {
 
                 <div className="flex flex-1 flex-col p-6">
                   <h3 className="font-display text-base font-semibold">{project.title}</h3>
-                  <p className="mt-2 line-clamp-3 text-sm text-muted-foreground">
-                    {project.tagline}
-                  </p>
+                  <p className="mt-2 line-clamp-3 text-sm text-muted-foreground">{project.tagline}</p>
 
                   <ul className="mt-4 flex flex-wrap gap-2">
                     {project.technologies.slice(0, 4).map((tech) => (

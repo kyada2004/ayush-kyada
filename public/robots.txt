@@ -1,3 +1,4 @@
+# All crawlers may index every page (mobile-first indexing friendly)
 User-agent: Googlebot
 Allow: /
 
@@ -12,3 +13,6 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Sitemap for search engines / Google Search Console
+Sitemap: https://ayushkyada.vercel.app/sitemap.xml

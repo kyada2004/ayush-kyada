@@ -103,13 +103,18 @@ export function Hero() {
           className="relative mx-auto w-full max-w-sm"
         >
           <div className="bg-gradient-brand absolute inset-0 rounded-full opacity-30 blur-3xl" />
+          {/* LCP image: eager + high priority, fixed dimensions to avoid CLS */}
           <img
             src={profile.photo}
-            alt={`${profile.name}, AI and Machine Learning Engineer`}
+            alt={`${profile.name}, AI and Machine Learning Engineer based in Ahmedabad, India`}
             width={640}
             height={640}
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
             className="glass relative aspect-square w-full rounded-full object-cover p-2"
           />
+
         </motion.div>
       </div>
     </section>

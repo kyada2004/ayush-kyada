@@ -6,35 +6,89 @@ import { Footer } from "@/components/portfolio/Footer";
 import { Reveal } from "@/components/portfolio/motion";
 import projects from "@/data/projects.json";
 
+// Absolute origin for canonical/OG URLs (social crawlers reject relative paths)
+const SITE_URL = "https://ayushkyada.vercel.app";
+
 export const Route = createFileRoute("/projects/$slug")({
   loader: ({ params }) => {
     const project = projects.find((p) => p.slug === params.slug);
     if (!project) throw notFound();
     return { project };
   },
-  head: ({ loaderData }) => {
+  head: ({ params, loaderData }) => {
     if (!loaderData) {
+      // Missing project: keep it out of the index instead of serving a thin page
       return {
-        meta: [
-          { title: "Project not found — Ayush Kyada" },
-          { name: "robots", content: "noindex" },
-        ],
+        meta: [{ title: "Project not found — Ayush Kyada" }, { name: "robots", content: "noindex" }],
       };
     }
-    const title = `${loaderData.project.title} — Ayush Kyada`;
+    const p = loaderData.project;
+    // Unique, keyword-rich title/description per project page
+    const title = `${p.title} — ${p.category} Project by Ayush Kyada`;
+    const description = `${p.tagline} Built by Ayush Kyada (AI/ML Engineer) using ${p.technologies
+      .slice(0, 4)
+      .join(", ")}.`;
+    const url = `${SITE_URL}/projects/${params.slug}`;
+    const image = `${SITE_URL}${p.cover}`;
+
     return {
       meta: [
         { title },
-        { name: "description", content: loaderData.project.tagline },
+        { name: "description", content: description },
         { property: "og:title", content: title },
-        { property: "og:description", content: loaderData.project.tagline },
+        { property: "og:description", content: description },
         { property: "og:type", content: "article" },
+        { property: "og:url", content: url },
+        { property: "og:image", content: image },
+        { property: "og:image:alt", content: `${p.title} project preview` },
         { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: description },
+        { name: "twitter:image", content: image },
+      ],
+      // Self-referencing canonical for each project detail page
+      links: [{ rel: "canonical", href: url }],
+      // JSON-LD: CreativeWork for the project + BreadcrumbList for breadcrumb rich results
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "CreativeWork",
+                name: p.title,
+                headline: p.title,
+                description: p.description,
+                url,
+                image,
+                dateCreated: p.year,
+                genre: p.category,
+                keywords: p.technologies.join(", "),
+                author: {
+                  "@type": "Person",
+                  name: "Kyada Ayush Bharatbhai",
+                  alternateName: "Ayush Kyada",
+                  url: `${SITE_URL}/`,
+                },
+              },
+              {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+                  { "@type": "ListItem", position: 2, name: "Projects", item: `${SITE_URL}/#projects` },
+                  { "@type": "ListItem", position: 3, name: p.title, item: url },
+                ],
+              },
+            ],
+          }),
+        },
       ],
     };
   },
   component: ProjectDetail,
 });
+
 
 function Block({ title, items }: { title: string; items: string[] }) {
   return (
@@ -61,12 +115,27 @@ function ProjectDetail() {
     <>
       <Navbar />
       <main className="mx-auto max-w-5xl px-4 pt-32 pb-20">
-        <Link
-          to="/"
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
-        >
-          <ArrowLeft className="h-4 w-4" /> Back to portfolio
-        </Link>
+        {/* Semantic breadcrumb navigation (matches the BreadcrumbList JSON-LD) */}
+        <nav aria-label="Breadcrumb">
+          <ol className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+            <li>
+              <Link to="/" className="inline-flex items-center gap-2 transition-colors hover:text-primary">
+                <ArrowLeft className="h-4 w-4" aria-hidden="true" /> Home
+              </Link>
+            </li>
+            <li aria-hidden="true">/</li>
+            <li>
+              <a href="/#projects" className="transition-colors hover:text-primary">
+                Projects
+              </a>
+            </li>
+            <li aria-hidden="true">/</li>
+            <li aria-current="page" className="text-foreground">
+              {project.title}
+            </li>
+          </ol>
+        </nav>
+
 
         <Reveal className="mt-6">
           <p className="text-xs font-semibold tracking-[0.3em] text-primary uppercase">
@@ -111,13 +180,18 @@ function ProjectDetail() {
         </Reveal>
 
         <Reveal delay={0.05} className="mt-10">
+          {/* LCP image of the detail page: high priority + fixed ratio (no CLS) */}
           <img
             src={project.cover}
-            alt={`${project.title} preview`}
+            alt={`Screenshot of ${project.title}, an ${project.category} project by Ayush Kyada`}
             width={1280}
             height={800}
-            className="glass w-full rounded-3xl object-cover p-1.5"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+            className="glass aspect-[16/10] w-full rounded-3xl object-cover p-1.5"
           />
+
         </Reveal>
 
         {project.gallery.length > 1 ? (
@@ -171,7 +245,32 @@ function ProjectDetail() {
             <Block title="Future improvements" items={project.improvements} />
           </Reveal>
         </div>
+
+        {/* Internal linking: crawlable links between sibling project pages */}
+        <Reveal className="mt-10">
+          <section aria-labelledby="more-projects" className="glass rounded-3xl p-6">
+            <h2 id="more-projects" className="font-display text-base font-semibold">
+              More projects
+            </h2>
+            <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+              {projects
+                .filter((p) => p.slug !== project.slug)
+                .map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      to="/projects/$slug"
+                      params={{ slug: p.slug }}
+                      className="block rounded-2xl px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-primary"
+                    >
+                      {p.title}
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </section>
+        </Reveal>
       </main>
+
       <Footer />
 
       {lightbox ? (
@@ -201,12 +300,7 @@ function ProjectDetail() {
           aria-modal="true"
           aria-label="Demo video"
         >
-          <video
-            src={project.video}
-            controls
-            autoPlay
-            className="max-h-[85vh] w-full max-w-3xl rounded-2xl"
-          />
+          <video src={project.video} controls autoPlay className="max-h-[85vh] w-full max-w-3xl rounded-2xl" />
         </div>
       ) : null}
     </>
