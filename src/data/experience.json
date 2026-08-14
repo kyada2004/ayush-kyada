@@ -4,20 +4,20 @@
     "company": "Darpy Solutions",
     "logo": "BrainCircuit",
     "duration": "Jan 2026 — May 2026",
-    "location": "Ahmedabad, India",
+    "location": "Ahmedabad, Gujarat, India",
     "responsibilities": [
       "Developed AI-powered applications and intelligent automation systems to solve real-world problems.",
       "Researched, tested and implemented AI/ML solutions applying strong analytical and problem-solving skills.",
       "Built LLM workflows with LangChain and integrated them into production-ready interfaces."
     ],
-    "technologies": ["Python", "LLMs", "LangChain", "Computer Vision"]
+    "technologies": ["Python", "LLMs","AI Agent","Machine Learning", "LangChain", "Computer Vision"]
   },
   {
     "position": "React.js & MongoDB Intern",
     "company": "N R Crew",
     "logo": "Layout",
     "duration": "Jun 2024 — Dec 2024",
-    "location": "Remote",
+    "location": "Ahmedabad, Gujarat, India",
     "responsibilities": [
       "Developed responsive dashboards and data-driven user interfaces using React.js and MongoDB.",
       "Integrated backend APIs and built analytics components to visualise business data effectively.",
@@ -30,7 +30,7 @@
     "company": "InfoTrends Pvt Ltd",
     "logo": "Server",
     "duration": "Mar 2024 — May 2024",
-    "location": "Ahmedabad, India",
+    "location": "Ahmedabad, Gujarat, India",
     "responsibilities": [
       "Optimised SQL queries and managed structured datasets to improve database performance.",
       "Implemented data validation, authentication and business logic for enterprise applications."
