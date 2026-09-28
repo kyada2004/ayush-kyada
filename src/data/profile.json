@@ -6,14 +6,16 @@
   "photo": "/images/profile/ayush.jpg",
   "logo": "/images/profile/logo.png",
   "location": "Ahmedabad, Gujarat, India",
-  "email": "ayushkyada2124@gmail.com",
+  "email": "ayushkyada2004@gmail.com",
   "phone": "+91 72018 98457",
   "resume": "/images/profile/Ayush_Resume.pdf",
   "typingRoles": [
     "AI & ML Engineer",
     "LLM & LangChain Developer",
     "Computer Vision",
-    "AI Agents Builder"
+    "AI Agents Builder",
+    "Website development",
+    "Software development"
   ],
   "intro": "Aspiring AI/ML Engineer and MCA student with practical experience in Python, Generative AI, LLMs, AI Agents, LangChain and Computer Vision. I build intelligent assistants, automation systems and desktop applications that solve real-world problems.",
   "summary": "AI/ML practitioner skilled in LLM application development, prompt engineering, REST API integration and computer vision. Experienced in building AI-powered assistants, intelligent automation systems and analytics chatbots end to end — from data pipelines and model integration to polished user interfaces.",
@@ -27,7 +29,7 @@
   "personalInfo": [
     { "label": "Full Name", "value": "Kyada Ayush Bharatbhai" },
     { "label": "Location", "value": "Ahmedabad, Gujarat" },
-    { "label": "Email", "value": "ayushkyada2124@gmail.com" },
+    { "label": "Email", "value": "ayushkyada2004@gmail.com" },
     { "label": "Phone", "value": "+91 72019 08457" },
     { "label": "Degree", "value": "Master of Computer Applications" },
     { "label": "Availability", "value": "Open to opportunities" }
@@ -43,7 +45,9 @@
     "Computer Vision",
     "Open Source",
     "System Design",
-    "Tech Blogging"
+    "Tech Blogging",
+    "Website development",
+    "Software development"
   ],
   "strengths": [
     "Analytical & problem-solving mindset",
